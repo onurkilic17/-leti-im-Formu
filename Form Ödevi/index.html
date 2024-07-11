@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Gönder</title>
+</head>
+<body>
+    <h1>Onur Kılıç Memnuniyet Formu</h1>
+    <form action="https://formsubmit.co/onrklc172@gmail.com" method="POST">
+        <div>
+        <label for="name_box">İsim</label>
+        <input type="text" name="name" id="name_box">
+    </div>
+    <br>
+    <div>
+        <label for="surname_box">Soyisim</label>
+        <input type="text" name="surname" id="surname_box">
+    </div>
+    <br>
+    <div>
+        <label for="email_box">E-posta Adresi</label>
+        <input type="email" name="email" id="email_box">
+    </div>
+    <br>
+    <div>
+        <label for="number_box">Yaşınız</label>
+        <input type="number" name="age" id="number_box" min="15" max="70">
+    </div>
+    <br>
+    <div>
+        <div>
+        <label for="text_box">Mesajınız</label>
+    </div>
+        <textarea name="yourmessage" rows="4" cols="30" id="text_box"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="range_box">Sitemizi Ne Kadar Beğendiniz?</label>
+        <input type="range" name="website-rating" id="range_box">
+    </div>
+    <br>
+        <button type="submit">Formu Gönder</button>
+   </form>
+</body>
+</html>
